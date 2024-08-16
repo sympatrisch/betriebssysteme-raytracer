@@ -13,6 +13,7 @@ Change Log / Ray Tracing in One Weekend
 
 ### In One Weekend
   - Fix    -- Fixed usage of the term "unit cube" for a cube of diameter two (#1555)
+  - Fix    -- Fixed broken highlighting on some code listings (#1600)
 
 ### The Next Week
 
