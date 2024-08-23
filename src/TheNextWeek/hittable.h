@@ -115,34 +115,41 @@ class rotate_y : public hittable {
     }
 
     bool hit(const ray& r, interval ray_t, hit_record& rec) const override {
-        // Change the ray from world space to object space
-        auto origin = r.origin();
-        auto direction = r.direction();
 
-        origin[0] = cos_theta*r.origin()[0] - sin_theta*r.origin()[2];
-        origin[2] = sin_theta*r.origin()[0] + cos_theta*r.origin()[2];
+        // Transform the ray from world space to object space.
 
-        direction[0] = cos_theta*r.direction()[0] - sin_theta*r.direction()[2];
-        direction[2] = sin_theta*r.direction()[0] + cos_theta*r.direction()[2];
+        auto origin = point3(
+            (cos_theta * r.origin().x()) - (sin_theta * r.origin().z()),
+            r.origin().y(),
+            (sin_theta * r.origin().x()) + (cos_theta * r.origin().z())
+        );
+
+        auto direction = vec3(
+            (cos_theta * r.direction().x()) - (sin_theta * r.direction().z()),
+            r.direction().y(),
+            (sin_theta * r.direction().x()) + (cos_theta * r.direction().z())
+        );
 
         ray rotated_r(origin, direction, r.time());
 
-        // Determine whether an intersection exists in object space (and if so, where)
+        // Determine whether an intersection exists in object space (and if so, where).
+
         if (!object->hit(rotated_r, ray_t, rec))
             return false;
 
-        // Change the intersection point from object space to world space
-        auto p = rec.p;
-        p[0] =  cos_theta*rec.p[0] + sin_theta*rec.p[2];
-        p[2] = -sin_theta*rec.p[0] + cos_theta*rec.p[2];
+        // Transform the intersection from object space back to world space.
 
-        // Change the normal from object space to world space
-        auto normal = rec.normal;
-        normal[0] =  cos_theta*rec.normal[0] + sin_theta*rec.normal[2];
-        normal[2] = -sin_theta*rec.normal[0] + cos_theta*rec.normal[2];
+        rec.p = point3(
+            (cos_theta * rec.p.x()) + (sin_theta * rec.p.z()),
+            rec.p.y(),
+            (-sin_theta * rec.p.x()) + (cos_theta * rec.p.z())
+        );
 
-        rec.p = p;
-        rec.normal = normal;
+        rec.normal = vec3(
+            (cos_theta * rec.normal.x()) + (sin_theta * rec.normal.z()),
+            rec.normal.y(),
+            (-sin_theta * rec.normal.x()) + (cos_theta * rec.normal.z())
+        );
 
         return true;
     }
