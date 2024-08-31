@@ -1,16 +1,16 @@
 Change Log / Ray Tracing in One Weekend
 ====================================================================================================
 
-# v4.0.1 (in progress)
+# v4.0.1 (2024-08-31)
 
 ### Common
-  - Fix    -- Big improvement to print version listing font size (#1595) and more compact line
-              height for code listings in both print and browser.
   - Change -- Include hittable.h from material.h; drop `hit_record` forward declaration (#1609)
-  - Fix    -- Slight improvement to `rotate_y::hit()` function (#1484)
-  - Fix    -- Fixed possible bogus values from `random_unit_vector()` due to underflow (#1606)
   - Change -- Refactor sphere to use ray representation for animate center (#1621)
   - Change -- All headers assume implicit rtweekend.h include (#1628)
+  - Fix    -- Big improvement to print version listing font size (#1595) and more compact line
+              height for code listings in both print and browser.
+  - Fix    -- Slight improvement to `rotate_y::hit()` function (#1484)
+  - Fix    -- Fixed possible bogus values from `random_unit_vector()` due to underflow (#1606)
 
 ### In One Weekend
   - Fix    -- Fixed usage of the term "unit cube" for a cube of diameter two (#1555, #1603)
@@ -21,10 +21,10 @@ Change Log / Ray Tracing in One Weekend
 
 ### The Rest of Your Life
   - Fix    -- Fix typo of "arbitrary" (#1589)
-  - New    -- Added a bit more explanation of Buffon's needle problem (#1529)
   - Fix    -- Fix X-axis label for figure 3.08 (Approximating the nonuniform f()) (#1532)
   - Fix    -- Corrected scatter angle theta range in section 3.5.3 (The Scattering PDF) (#1331)
   - Fix    -- Clarify the distinction between average and expected value (#1535)
+  - New    -- Added a bit more explanation of Buffon's needle problem (#1529)
 
 
 ----------------------------------------------------------------------------------------------------

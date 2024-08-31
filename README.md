@@ -11,7 +11,7 @@ Getting the Books
 The _Ray Tracing in One Weekend_ series of books are now available to the public for free directly
 from the web.
 
-### Version 4.0.0
+### Version 4.0.1
 
   - [Ray Tracing in One Weekend][web1]
   - [Ray Tracing: The Next Week][web2]
@@ -29,12 +29,12 @@ first**_.
 
 Project Status
 ---------------
-v4.0.0 has shipped! Three and a half years in the making, with massive changes to all three books
-and accompanying code.
+Version 4 has shipped! Three and a half years in the making, with massive changes to all three books
+and accompanying code. Our current version is v4.0.1.
 
 If you'd like to check out the latest updates and watch our progress, we're on the `dev-patch`,
-`dev-minor`, and `dev-major` branches. You can also browse our release backlog to see what we're
-planning.
+`dev-minor`, and `dev-major` branches. You can also browse our issues and milestones to see what
+we're planning.
 
 If you're interested in contributing, email us! You can find our contact info at the head of each
 book. Or just start [a new discussion][discussions] or [issue][issues].
