@@ -1,0 +1,12 @@
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/inOneWeekend.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/theNextWeek.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/theRestOfYourLife.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/cos_cubed.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/cos_density.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/integrate_x_sq.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/pi.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/estimate_halfway.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/sphere_importance.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/sphere_plot.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug/CMakeFiles/rebuild_cache.dir

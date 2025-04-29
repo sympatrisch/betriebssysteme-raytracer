@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RTWeekend",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cos_cubed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cos_cubed-Debug-0e183a5d9fc05e85bde3.json",
+					"name" : "cos_cubed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cos_density::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cos_density-Debug-b3b890138786056a12e2.json",
+					"name" : "cos_density",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "estimate_halfway::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-estimate_halfway-Debug-1d66544c7905f1d5c09e.json",
+					"name" : "estimate_halfway",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inOneWeekend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inOneWeekend-Debug-7cb2c21140767f44f8d4.json",
+					"name" : "inOneWeekend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integrate_x_sq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrate_x_sq-Debug-c97db0c61f89fda3ee07.json",
+					"name" : "integrate_x_sq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pi-Debug-84c49203a4710297ed95.json",
+					"name" : "pi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sphere_importance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sphere_importance-Debug-2fc0cf0fd0636f43a4f2.json",
+					"name" : "sphere_importance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sphere_plot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sphere_plot-Debug-98303faffc2ddd89aa69.json",
+					"name" : "sphere_plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theNextWeek::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theNextWeek-Debug-6183c4e682707cf173f5.json",
+					"name" : "theNextWeek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theRestOfYourLife::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theRestOfYourLife-Debug-5e28c1521ed7662774f0.json",
+					"name" : "theRestOfYourLife",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug",
+		"source" : "C:/Users/patri/CLionProjects/raytracing.github.io"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

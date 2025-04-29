@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2024.3.5\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.5/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\patri\CLionProjects\raytracing.github.io -B C:\Users\patri\CLionProjects\raytracing.github.io\cmake-build-debug
+-- Compiler ID: GNU
+-- Release flags: -O3 -DNDEBUG
+-- Debug flags: -g
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-debug

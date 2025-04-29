@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RTWeekend",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cos_cubed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cos_cubed-Release-4e136ec2048508c8df4d.json",
+					"name" : "cos_cubed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cos_density::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cos_density-Release-3237ccda6fc66679628d.json",
+					"name" : "cos_density",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "estimate_halfway::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-estimate_halfway-Release-5e8953e98b2183a167bf.json",
+					"name" : "estimate_halfway",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "inOneWeekend::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-inOneWeekend-Release-0ed1171fb5f8c9b83ef7.json",
+					"name" : "inOneWeekend",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integrate_x_sq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integrate_x_sq-Release-3929ce21c7b983624678.json",
+					"name" : "integrate_x_sq",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pi-Release-fd0a9a290581e6dfee69.json",
+					"name" : "pi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sphere_importance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sphere_importance-Release-ab589b093f8222f74499.json",
+					"name" : "sphere_importance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sphere_plot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sphere_plot-Release-9c4bae5e6995a72e6d3b.json",
+					"name" : "sphere_plot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theNextWeek::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theNextWeek-Release-226b79b5f405ac7f6228.json",
+					"name" : "theNextWeek",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "theRestOfYourLife::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-theRestOfYourLife-Release-92a6edf7cf9acbbe9fb9.json",
+					"name" : "theRestOfYourLife",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/patri/CLionProjects/raytracing.github.io/cmake-build-release",
+		"source" : "C:/Users/patri/CLionProjects/raytracing.github.io"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

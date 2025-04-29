@@ -14,18 +14,18 @@
 #include "interval.h"
 #include "vec3.h"
 
-using color = vec3;
+using color = vec3; // Farbe ist einfach ein vec3 (Vektor aus 3 Zahlen)
 
-
+// Gamma-Korrektur, denn Menschen sehen Helligkeit nicht linear
 inline double linear_to_gamma(double linear_component)
 {
     if (linear_component > 0)
-        return std::sqrt(linear_component);
+        return std::sqrt(linear_component); // entspricht Gamma 2.0
 
     return 0;
 }
 
-
+// Wandelt eine Farbe (r,g,b im Bereich [0.0, 1.0]) in richtige Pixelwerte (0–255) um und schreibt sie ins Bild
 void write_color(std::ostream& out, const color& pixel_color) {
     auto r = pixel_color.x();
     auto g = pixel_color.y();
